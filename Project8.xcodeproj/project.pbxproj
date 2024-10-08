@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B55ECEBD2CB5A6BA00D524F3 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = B55ECEBC2CB5A6B900D524F3 /* level2.txt */; };
 		B5BA220C2CAD97E200E6A926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA220B2CAD97E200E6A926 /* AppDelegate.swift */; };
 		B5BA220E2CAD97E200E6A926 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA220D2CAD97E200E6A926 /* SceneDelegate.swift */; };
 		B5BA22102CAD97E200E6A926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BA220F2CAD97E200E6A926 /* ViewController.swift */; };
 		B5BA22132CAD97E200E6A926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BA22112CAD97E200E6A926 /* Main.storyboard */; };
 		B5BA22152CAD97E300E6A926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5BA22142CAD97E300E6A926 /* Assets.xcassets */; };
 		B5BA22182CAD97E300E6A926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BA22162CAD97E300E6A926 /* LaunchScreen.storyboard */; };
+		B5DD598A2CB472CE00D53743 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = B5DD59892CB472CE00D53743 /* level1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B55ECEBC2CB5A6B900D524F3 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 		B5BA22082CAD97E200E6A926 /* Project8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BA220B2CAD97E200E6A926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5BA220D2CAD97E200E6A926 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		B5BA22142CAD97E300E6A926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5BA22172CAD97E300E6A926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5BA22192CAD97E300E6A926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5DD59892CB472CE00D53743 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B5BA22142CAD97E300E6A926 /* Assets.xcassets */,
 				B5BA22162CAD97E300E6A926 /* LaunchScreen.storyboard */,
 				B5BA22192CAD97E300E6A926 /* Info.plist */,
+				B5DD59892CB472CE00D53743 /* level1.txt */,
+				B55ECEBC2CB5A6B900D524F3 /* level2.txt */,
 			);
 			path = Project8;
 			sourceTree = "<group>";
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55ECEBD2CB5A6BA00D524F3 /* level2.txt in Resources */,
 				B5BA22182CAD97E300E6A926 /* LaunchScreen.storyboard in Resources */,
+				B5DD598A2CB472CE00D53743 /* level1.txt in Resources */,
 				B5BA22152CAD97E300E6A926 /* Assets.xcassets in Resources */,
 				B5BA22132CAD97E200E6A926 /* Main.storyboard in Resources */,
 			);
@@ -302,9 +310,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.victormacari.Project8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -330,9 +341,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.victormacari.Project8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
